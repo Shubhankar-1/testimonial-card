@@ -22,28 +22,26 @@
         </style>
     </head>
 
-    <body class="flex w-full h-full bg-gradient-to-br from-gray-50 to-gray-300 justify-center items-center">
+    <body class="flex w-full h-full bg-gradient-to-br from-gray-50 to-[#D2D6DB] justify-center">
         <!-- Add your site or application content here -->
         <!-- <h1 class="text-5xl text-center font-semibold pt-20">
       Hello world! Write your content here.
     </h1> -->
 
-        <container class="container flex items-center justify-center px-4 md:px-6">
-            <card class="flex flex-col w-full sm:max-w-xs gap-4 bg-white shadow-md rounded-md px-4 py-4">
-                <user class="flex gap-4 items-center">
-                    <img src="img/profile-thumbnail.png" alt="user profile thumbnail" class="rounded-md w-16 h-auto" />
-                    <user-details>
-                        <name class="text-xl font-semibold text-neutral-900">Sarah Dole</name> <br />
-                        <username class="text-neutral-600">@sarahdole</username>
-                    </user-details>
-                </user>
+        <card class="flex flex-col w-full h-min max-w-[340px] gap-4 bg-white shadow-md rounded-lg p-6 mt-[200px]">
+            <user class="flex gap-4 items-center">
+                <img src="img/profile-thumbnail.png" alt="user profile thumbnail" class="w-12 h-12 rounded-full" />
+                <user-details class="flex flex-col grow">
+                    <name class="text-lg font-semibold text-neutral-900">Sarah Dole</name>
+                    <username class="text-neutral-600 text-sm">@sarahdole</username>
+                </user-details>
+            </user>
 
-                <user-review class="text-neutral-600"
-                    >I've been searching for high-quality abstract images for my design projects, and I'm thrilled to have found this platform. The
-                    variety and depth of creativity are astounding!
-                </user-review>
-            </card>
-        </container>
+            <user-review class="text-neutral-600"
+                >I've been searching for high-quality abstract images for my design projects, and I'm thrilled to have found this platform. The
+                variety and depth of creativity are astounding!
+            </user-review>
+        </card>
         <!-- Sarah Dole
             @sarahdole
             I've been searching for high-quality abstract images for my design projects, 
